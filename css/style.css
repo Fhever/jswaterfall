@@ -1,0 +1,24 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+}
+#container {
+  position: relative;
+}
+.box {
+  padding: 5px;
+  float: left;
+}
+.img_box {
+  padding: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccbbbb;
+}
+.img_box img{
+  width:230px;
+  height: auto;
+}
+.img_box:hover{
+  box-shadow:  0 0 5px #0d0c0d;
+}
